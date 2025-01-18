@@ -3,9 +3,9 @@
 #include <WiFiClient.h>  // For socket connections
 
 // WiFi credentials
-const char* ssid = "Hurrah";
-const char* password = "nik34et64";
-const char* serverHost = "192.168.187.220";  // Flask server IP
+const char* ssid = ""; //WIFI NAME
+const char* password = "";WIFI PASSOWRD
+const char* serverHost = "";  // Flask server IP Example 192.168.10.1
 const uint16_t serverPort = 8888;          // Flask server port
 int32_t timeout_ms = 10000;
 
